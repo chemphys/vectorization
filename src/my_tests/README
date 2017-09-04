@@ -1,0 +1,6 @@
+Tests I wrote to check the autovectorization reports.
+To compile, run
+./compile_all.sh
+
+This generates 4 executables, 2 for main.cpp and 2 for main_aligned.cpp,
+one with g++ and one with icpc
